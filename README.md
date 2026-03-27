@@ -1,70 +1,189 @@
-# Getting Started with Create React App
+# 🚀 AI-Powered Recruitment Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
 
-## Available Scripts
+This project is a modern recruitment platform that replaces traditional resume uploads with AI-assisted structured profile creation.
 
-In the project directory, you can run:
+Instead of uploading PDFs, candidates simply describe their experience, and the system intelligently converts it into structured data such as skills and profile scores for easy evaluation.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Problem Statement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Traditional hiring platforms rely on resumes which are:
 
-### `npm test`
+* Unstructured and inconsistent
+* Difficult to parse
+* Prone to bias
+* Inefficient for recruiters
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 💡 Solution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This platform introduces:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* AI-assisted input system
+* Structured data capture
+* Smart profile building
+* Recruiter-friendly dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 👥 Target Users
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 👤 Candidates
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Students
+* Freshers
+* Early professionals
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧑‍💼 Recruiters
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Hiring managers
+* HR teams
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🤖 AI Profile Builder
 
-### Code Splitting
+* Converts natural language input into structured skills
+* Detects technologies like Python, React, Java
+* Generates a profile score
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 💾 Save & Sync
 
-### Analyzing the Bundle Size
+* Auto-save using localStorage
+* Backend API to store profiles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📊 Recruiter Dashboard
 
-### Making a Progressive Web App
+* View multiple candidates
+* Compare profiles
+* Shortlist candidates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🔐 Demo Login (For Evaluation)
 
-### Advanced Configuration
+Use the following credentials:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Email: [hire-me@anshumat.org](mailto:hire-me@anshumat.org)
+* Password: HireMe@2025!
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧱 Tech Stack
 
-### `npm run build` fails to minify
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* React.js
+* React Router
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+---
+
+## 📂 Project Structure
+
+```
+ai-recruitment-platform
+ ├── frontend   # React frontend
+ ├── backend    # Node.js backend
+ └── README.md
+```
+
+---
+
+## 🚀 Setup Instructions
+
+### 🔹 1. Clone Repository
+
+```
+git clone <your-repo-link>
+cd ai-recruitment-platform
+```
+
+---
+
+### 🔹 2. Run Backend
+
+```
+cd backend
+npm install
+node server.js
+```
+
+Backend runs at:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 🔹 3. Run Frontend
+
+```
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🧪 How to Use
+
+1. Open the application
+2. Login using demo credentials
+3. Enter your experience in the AI builder
+4. Click "Generate with AI"
+5. Save your profile
+6. Go to dashboard to view candidates
+7. Shortlist candidates
+
+---
+
+## 🧠 AI Interaction Design
+
+User Input:
+
+> "I worked on Python and React projects"
+
+System Output:
+
+* Skills: Python, React
+* Profile Score: 60%
+
+The system simulates AI by extracting structured data from natural language input.
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how AI can replace traditional resumes with structured, intelligent profiles, improving hiring efficiency and reducing bias.
+
+---
+
+## 🔮 Future Improvements
+
+* Real AI integration (OpenAI API)
+* Resume PDF export
+* Shareable profile links
+* Authentication with database
+
+---
+
+## 👨‍💻 Author
+
+Naveen Ghosh
